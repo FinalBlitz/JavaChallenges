@@ -202,6 +202,57 @@ public class Challenges {
         return "You provided, " + wordLength + " and the length is " + wordLength.length();
     }
 
+    public void countToTen(){
+
+        for(int i = 1; i <= 10; i++){
+
+            System.out.println(i);
+
+
+        }
+
+        int i = 1;
+        while (i <= 10){
+            System.out.println(i);
+            i++;
+        }
+    }
+
+    public void countBackwardFromTen(){
+
+        for (int i = 10; i >= 1; i--){
+
+            System.out.println(i);
+    }
+
+    }
+    public void countByTwo(){
+
+        for(int i = 2; i <= 100; i+=2){
+
+            System.out.println(i);
+
+
+        }
+    }
+
+    public void countFromZeroToFifty(){
+
+        for(int i = 0; i <= 50; i+=2){
+
+            System.out.println(i);
+
+
+        }
+
+        for (int i=0; i <= 50; i++){
+
+            if (i % 2 !=0){
+                System.out.println(i);
+            }
+        }
+
+    }
 
 
 }
